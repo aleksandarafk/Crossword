@@ -1,0 +1,63 @@
+.step2 td, .step2 th
+{
+	width: 1.6em;
+	height: 1.6em;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.step2 th, .step2 td:empty
+{
+	border-left:1px solid silver;
+	border-top :1px solid silver;
+}
+
+.step2 td:not(:empty)
+{
+	border:1px solid black;
+}
+
+.step2 td > br
+{
+	background-color:black;
+	display: block;
+	content: '';
+	width: 100%;
+	height: 100%;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.blacksquare /* used class in the js file */
+{
+	  background-color: black;
+	  border: 1px solid black;
+}
+
+.step2 table
+{
+	border-collapse:collapse;
+	border:1px solid silver;
+}
+
+.step2 input:valid
+{
+  color: green;
+}
+
+.step2 input:invalid
+{
+  color: darkred;
+}
+
+.step2 input
+{
+	display: block;
+	width: 85%;
+	height: 100%;
+	padding: none;
+	text-align: center;
+	border: none;
+}
